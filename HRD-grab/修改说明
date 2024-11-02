@@ -1,0 +1,24 @@
+1.只有两个站点，因此不选择客户端进行聚类，所有客户端都参与聚类，即不设置prob
+2.core_utils.py的train_fl函数加入给每个客户端初始化pid_losses (r216)
+3.导入utils/losses,update_baseline。losses.py中class PIDLOSS初始化num_classes=2,
+4.core_utils.py的train_fl函数中更换train_loop_fl的loss_fn参数为g_pid_losses[idx] (r227)
+5.core_utils.py的train_loop_fl修改loss 的计算方法(r439)
+
+6.core_utils.py的train函数加入给客户端初始化pid_losses (r361)
+7.core_utils.py的train函数中更换train_loop的loss_fn参数为g_pid_losses(r372)
+8.core_utils.py的train_loop修改loss 的计算方法(r486)
+
+均运行无权重和N/n权重采样，指令：
+联邦学习：
+CUDA_VISIBLE_DEVICES=3 python main.py --k 1 --exp_code classification_fl --weighted_fl_avg  --split_dir fl_classification
+CUDA_VISIBLE_DEVICES=4 python main.py --k 1 --exp_code classification_fl --weighted_sample --weighted_fl_avg  --split_dir fl_classification
+
+集中化：
+CUDA_VISIBLE_DEVICES=5 python main.py --k 1 --exp_code classification_no_fl --task classification --no_fl --split_dir nofl_classification
+CUDA_VISIBLE_DEVICES=6 python main.py --k 1 --exp_code classification_no_fl --weighted_sample --task classification --no_fl --split_dir nofl_classification
+
+
+实验结果说明：
+旧的划分方式没有加权采样的情况下在class1中出现0/**的情况，加权采样后明显改进。新的划分方式没有预测对0的情况，但是加权采样后也有明显改进。
+综合来看，即计算class1正确率，新旧划分方式加权采样后结果几乎相同。（9/16&13/23）
+未来研究就思路可以是，将加权采样的方式应用在对召回率要求高，特异度要求低的情境中。
