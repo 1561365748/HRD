@@ -1,0 +1,861 @@
+2024-11-02 10:38:11,997 - INFO - 
+worker_0: val_loss: 0.6933, val_error: 0.4510, auc: 0.5818
+2024-11-02 10:38:11,999 - INFO - worker_0 - class 0: acc 0.55, correct 22/40
+2024-11-02 10:38:12,002 - INFO - worker_0 - class 1: acc 0.5454545454545454, correct 6/11
+2024-11-02 10:38:17,924 - INFO - 
+worker_1: val_loss: 0.6828, val_error: 0.4200, auc: 0.6885
+2024-11-02 10:38:17,926 - INFO - worker_1 - class 0: acc 0.5, correct 18/36
+2024-11-02 10:38:17,928 - INFO - worker_1 - class 1: acc 0.7857142857142857, correct 11/14
+2024-11-02 10:38:17,938 - INFO - 
+Total: val_loss: 0.6880, val_error: 0.4355, auc: 0.6426
+2024-11-02 10:38:22,267 - INFO - 
+loader_0: test_error: 0.3922, auc: 0.6873
+2024-11-02 10:38:22,268 - INFO - loader_0 - class 0: acc 0.5405405405405406, correct 20/37
+2024-11-02 10:38:22,268 - INFO - loader_0 - class 1: acc 0.7857142857142857, correct 11/14
+2024-11-02 10:38:28,716 - INFO - 
+loader_1: test_error: 0.4706, auc: 0.6058
+2024-11-02 10:38:28,719 - INFO - loader_1 - class 0: acc 0.5, correct 21/42
+2024-11-02 10:38:28,719 - INFO - loader_1 - class 1: acc 0.6666666666666666, correct 6/9
+2024-11-02 10:38:28,723 - INFO - 
+Total: test_error: 0.4314, auc: 0.6439
+2024-11-02 10:40:12,320 - INFO - 
+worker_0: val_loss: 0.6078, val_error: 0.2549, auc: 0.5705
+2024-11-02 10:40:12,321 - INFO - worker_0 - class 0: acc 0.875, correct 35/40
+2024-11-02 10:40:12,321 - INFO - worker_0 - class 1: acc 0.2727272727272727, correct 3/11
+2024-11-02 10:40:19,042 - INFO - 
+worker_1: val_loss: 0.6071, val_error: 0.2600, auc: 0.7024
+2024-11-02 10:40:19,043 - INFO - worker_1 - class 0: acc 0.8888888888888888, correct 32/36
+2024-11-02 10:40:19,044 - INFO - worker_1 - class 1: acc 0.35714285714285715, correct 5/14
+2024-11-02 10:40:19,055 - INFO - 
+Total: val_loss: 0.6074, val_error: 0.2575, auc: 0.6505
+2024-11-02 10:40:25,518 - INFO - 
+loader_0: test_error: 0.2745, auc: 0.7008
+2024-11-02 10:40:25,520 - INFO - loader_0 - class 0: acc 0.918918918918919, correct 34/37
+2024-11-02 10:40:25,521 - INFO - loader_0 - class 1: acc 0.21428571428571427, correct 3/14
+2024-11-02 10:40:31,607 - INFO - 
+loader_1: test_error: 0.1961, auc: 0.6164
+2024-11-02 10:40:31,610 - INFO - loader_1 - class 0: acc 0.8809523809523809, correct 37/42
+2024-11-02 10:40:31,611 - INFO - loader_1 - class 1: acc 0.4444444444444444, correct 4/9
+2024-11-02 10:40:31,631 - INFO - 
+Total: test_error: 0.2353, auc: 0.6621
+2024-11-02 10:42:12,650 - INFO - 
+worker_0: val_loss: 0.5955, val_error: 0.2941, auc: 0.5932
+2024-11-02 10:42:12,652 - INFO - worker_0 - class 0: acc 0.8, correct 32/40
+2024-11-02 10:42:12,653 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 10:42:18,764 - INFO - 
+worker_1: val_loss: 0.5867, val_error: 0.3000, auc: 0.6885
+2024-11-02 10:42:18,765 - INFO - worker_1 - class 0: acc 0.8333333333333334, correct 30/36
+2024-11-02 10:42:18,766 - INFO - worker_1 - class 1: acc 0.35714285714285715, correct 5/14
+2024-11-02 10:42:18,775 - INFO - 
+Total: val_loss: 0.5911, val_error: 0.2971, auc: 0.6479
+2024-11-02 10:42:25,494 - INFO - 
+loader_0: test_error: 0.2745, auc: 0.7046
+2024-11-02 10:42:25,495 - INFO - loader_0 - class 0: acc 0.918918918918919, correct 34/37
+2024-11-02 10:42:25,495 - INFO - loader_0 - class 1: acc 0.21428571428571427, correct 3/14
+2024-11-02 10:42:31,961 - INFO - 
+loader_1: test_error: 0.1961, auc: 0.6217
+2024-11-02 10:42:31,962 - INFO - loader_1 - class 0: acc 0.8809523809523809, correct 37/42
+2024-11-02 10:42:31,962 - INFO - loader_1 - class 1: acc 0.4444444444444444, correct 4/9
+2024-11-02 10:42:31,966 - INFO - 
+Total: test_error: 0.2353, auc: 0.6687
+2024-11-02 10:43:50,870 - INFO - 
+worker_0: val_loss: 0.9050, val_error: 0.6667, auc: 0.6000
+2024-11-02 10:43:50,871 - INFO - worker_0 - class 0: acc 0.175, correct 7/40
+2024-11-02 10:43:50,872 - INFO - worker_0 - class 1: acc 0.9090909090909091, correct 10/11
+2024-11-02 10:43:56,070 - INFO - 
+worker_1: val_loss: 0.8276, val_error: 0.5200, auc: 0.7222
+2024-11-02 10:43:56,071 - INFO - worker_1 - class 0: acc 0.2777777777777778, correct 10/36
+2024-11-02 10:43:56,072 - INFO - worker_1 - class 1: acc 1.0, correct 14/14
+2024-11-02 10:43:56,079 - INFO - 
+Total: val_loss: 0.8663, val_error: 0.5933, auc: 0.6753
+2024-11-02 10:44:01,172 - INFO - 
+loader_0: test_error: 0.6078, auc: 0.7162
+2024-11-02 10:44:01,172 - INFO - loader_0 - class 0: acc 0.16216216216216217, correct 6/37
+2024-11-02 10:44:01,172 - INFO - loader_0 - class 1: acc 1.0, correct 14/14
+2024-11-02 10:44:05,846 - INFO - 
+loader_1: test_error: 0.7255, auc: 0.6190
+2024-11-02 10:44:05,847 - INFO - loader_1 - class 0: acc 0.16666666666666666, correct 7/42
+2024-11-02 10:44:05,847 - INFO - loader_1 - class 1: acc 0.7777777777777778, correct 7/9
+2024-11-02 10:44:05,851 - INFO - 
+Total: test_error: 0.6667, auc: 0.6709
+2024-11-02 10:45:28,685 - INFO - 
+worker_0: val_loss: 0.6608, val_error: 0.3529, auc: 0.5750
+2024-11-02 10:45:28,687 - INFO - worker_0 - class 0: acc 0.7, correct 28/40
+2024-11-02 10:45:28,688 - INFO - worker_0 - class 1: acc 0.45454545454545453, correct 5/11
+2024-11-02 10:45:33,822 - INFO - 
+worker_1: val_loss: 0.6149, val_error: 0.3600, auc: 0.7004
+2024-11-02 10:45:33,823 - INFO - worker_1 - class 0: acc 0.6666666666666666, correct 24/36
+2024-11-02 10:45:33,824 - INFO - worker_1 - class 1: acc 0.5714285714285714, correct 8/14
+2024-11-02 10:45:33,831 - INFO - 
+Total: val_loss: 0.6379, val_error: 0.3565, auc: 0.6437
+2024-11-02 10:45:38,825 - INFO - 
+loader_0: test_error: 0.2745, auc: 0.7008
+2024-11-02 10:45:38,827 - INFO - loader_0 - class 0: acc 0.7837837837837838, correct 29/37
+2024-11-02 10:45:38,827 - INFO - loader_0 - class 1: acc 0.5714285714285714, correct 8/14
+2024-11-02 10:45:43,447 - INFO - 
+loader_1: test_error: 0.3529, auc: 0.6720
+2024-11-02 10:45:43,448 - INFO - loader_1 - class 0: acc 0.6904761904761905, correct 29/42
+2024-11-02 10:45:43,448 - INFO - loader_1 - class 1: acc 0.4444444444444444, correct 4/9
+2024-11-02 10:45:43,454 - INFO - 
+Total: test_error: 0.3137, auc: 0.6852
+2024-11-02 10:47:03,201 - INFO - 
+worker_0: val_loss: 0.8084, val_error: 0.5294, auc: 0.5727
+2024-11-02 10:47:03,203 - INFO - worker_0 - class 0: acc 0.45, correct 18/40
+2024-11-02 10:47:03,205 - INFO - worker_0 - class 1: acc 0.5454545454545454, correct 6/11
+2024-11-02 10:47:07,757 - INFO - 
+worker_1: val_loss: 0.7006, val_error: 0.4200, auc: 0.7381
+2024-11-02 10:47:07,759 - INFO - worker_1 - class 0: acc 0.4444444444444444, correct 16/36
+2024-11-02 10:47:07,762 - INFO - worker_1 - class 1: acc 0.9285714285714286, correct 13/14
+2024-11-02 10:47:07,776 - INFO - 
+Total: val_loss: 0.7545, val_error: 0.4747, auc: 0.6700
+2024-11-02 10:47:12,752 - INFO - 
+loader_0: test_error: 0.4118, auc: 0.7490
+2024-11-02 10:47:12,753 - INFO - loader_0 - class 0: acc 0.4864864864864865, correct 18/37
+2024-11-02 10:47:12,753 - INFO - loader_0 - class 1: acc 0.8571428571428571, correct 12/14
+2024-11-02 10:47:18,507 - INFO - 
+loader_1: test_error: 0.5098, auc: 0.6693
+2024-11-02 10:47:18,507 - INFO - loader_1 - class 0: acc 0.42857142857142855, correct 18/42
+2024-11-02 10:47:18,508 - INFO - loader_1 - class 1: acc 0.7777777777777778, correct 7/9
+2024-11-02 10:47:18,512 - INFO - 
+Total: test_error: 0.4608, auc: 0.7089
+2024-11-02 10:48:51,355 - INFO - 
+worker_0: val_loss: 0.5823, val_error: 0.2941, auc: 0.5909
+2024-11-02 10:48:51,356 - INFO - worker_0 - class 0: acc 0.8, correct 32/40
+2024-11-02 10:48:51,357 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 10:48:56,975 - INFO - 
+worker_1: val_loss: 0.5406, val_error: 0.3200, auc: 0.7440
+2024-11-02 10:48:56,976 - INFO - worker_1 - class 0: acc 0.8055555555555556, correct 29/36
+2024-11-02 10:48:56,977 - INFO - worker_1 - class 1: acc 0.35714285714285715, correct 5/14
+2024-11-02 10:48:56,993 - INFO - 
+Total: val_loss: 0.5615, val_error: 0.3071, auc: 0.6784
+2024-11-02 10:49:02,937 - INFO - 
+loader_0: test_error: 0.2745, auc: 0.7568
+2024-11-02 10:49:02,940 - INFO - loader_0 - class 0: acc 0.8918918918918919, correct 33/37
+2024-11-02 10:49:02,942 - INFO - loader_0 - class 1: acc 0.2857142857142857, correct 4/14
+2024-11-02 10:49:08,726 - INFO - 
+loader_1: test_error: 0.2549, auc: 0.6852
+2024-11-02 10:49:08,727 - INFO - loader_1 - class 0: acc 0.8095238095238095, correct 34/42
+2024-11-02 10:49:08,727 - INFO - loader_1 - class 1: acc 0.4444444444444444, correct 4/9
+2024-11-02 10:49:08,729 - INFO - 
+Total: test_error: 0.2647, auc: 0.7160
+2024-11-02 10:50:30,478 - INFO - 
+worker_0: val_loss: 0.6972, val_error: 0.4118, auc: 0.5773
+2024-11-02 10:50:30,479 - INFO - worker_0 - class 0: acc 0.625, correct 25/40
+2024-11-02 10:50:30,483 - INFO - worker_0 - class 1: acc 0.45454545454545453, correct 5/11
+2024-11-02 10:50:35,486 - INFO - 
+worker_1: val_loss: 0.5905, val_error: 0.3600, auc: 0.7639
+2024-11-02 10:50:35,487 - INFO - worker_1 - class 0: acc 0.5555555555555556, correct 20/36
+2024-11-02 10:50:35,489 - INFO - worker_1 - class 1: acc 0.8571428571428571, correct 12/14
+2024-11-02 10:50:35,498 - INFO - 
+Total: val_loss: 0.6439, val_error: 0.3859, auc: 0.6868
+2024-11-02 10:50:41,922 - INFO - 
+loader_0: test_error: 0.2745, auc: 0.7625
+2024-11-02 10:50:41,925 - INFO - loader_0 - class 0: acc 0.7027027027027027, correct 26/37
+2024-11-02 10:50:41,926 - INFO - loader_0 - class 1: acc 0.7857142857142857, correct 11/14
+2024-11-02 10:50:47,435 - INFO - 
+loader_1: test_error: 0.4118, auc: 0.6878
+2024-11-02 10:50:47,437 - INFO - loader_1 - class 0: acc 0.5714285714285714, correct 24/42
+2024-11-02 10:50:47,438 - INFO - loader_1 - class 1: acc 0.6666666666666666, correct 6/9
+2024-11-02 10:50:47,443 - INFO - 
+Total: test_error: 0.3431, auc: 0.7309
+2024-11-02 10:52:03,569 - INFO - 
+worker_0: val_loss: 0.5904, val_error: 0.2941, auc: 0.5614
+2024-11-02 10:52:03,569 - INFO - worker_0 - class 0: acc 0.8, correct 32/40
+2024-11-02 10:52:03,570 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 10:52:11,050 - INFO - 
+worker_1: val_loss: 0.5110, val_error: 0.3000, auc: 0.7540
+2024-11-02 10:52:11,052 - INFO - worker_1 - class 0: acc 0.8611111111111112, correct 31/36
+2024-11-02 10:52:11,056 - INFO - worker_1 - class 1: acc 0.2857142857142857, correct 4/14
+2024-11-02 10:52:11,070 - INFO - 
+Total: val_loss: 0.5507, val_error: 0.2971, auc: 0.6705
+2024-11-02 10:52:20,139 - INFO - 
+loader_0: test_error: 0.2157, auc: 0.7780
+2024-11-02 10:52:20,142 - INFO - loader_0 - class 0: acc 0.918918918918919, correct 34/37
+2024-11-02 10:52:20,147 - INFO - loader_0 - class 1: acc 0.42857142857142855, correct 6/14
+2024-11-02 10:52:25,331 - INFO - 
+loader_1: test_error: 0.2549, auc: 0.7196
+2024-11-02 10:52:25,333 - INFO - loader_1 - class 0: acc 0.8095238095238095, correct 34/42
+2024-11-02 10:52:25,333 - INFO - loader_1 - class 1: acc 0.4444444444444444, correct 4/9
+2024-11-02 10:52:25,339 - INFO - 
+Total: test_error: 0.2353, auc: 0.7402
+2024-11-02 10:53:40,342 - INFO - 
+worker_0: val_loss: 0.7502, val_error: 0.5098, auc: 0.5818
+2024-11-02 10:53:40,343 - INFO - worker_0 - class 0: acc 0.475, correct 19/40
+2024-11-02 10:53:40,343 - INFO - worker_0 - class 1: acc 0.5454545454545454, correct 6/11
+2024-11-02 10:53:44,965 - INFO - 
+worker_1: val_loss: 0.6387, val_error: 0.4200, auc: 0.7877
+2024-11-02 10:53:44,965 - INFO - worker_1 - class 0: acc 0.4444444444444444, correct 16/36
+2024-11-02 10:53:44,966 - INFO - worker_1 - class 1: acc 0.9285714285714286, correct 13/14
+2024-11-02 10:53:44,976 - INFO - 
+Total: val_loss: 0.6944, val_error: 0.4649, auc: 0.7000
+2024-11-02 10:53:49,806 - INFO - 
+loader_0: test_error: 0.3725, auc: 0.7780
+2024-11-02 10:53:49,807 - INFO - loader_0 - class 0: acc 0.5675675675675675, correct 21/37
+2024-11-02 10:53:49,808 - INFO - loader_0 - class 1: acc 0.7857142857142857, correct 11/14
+2024-11-02 10:53:54,110 - INFO - 
+loader_1: test_error: 0.4706, auc: 0.7011
+2024-11-02 10:53:54,110 - INFO - loader_1 - class 0: acc 0.4523809523809524, correct 19/42
+2024-11-02 10:53:54,110 - INFO - loader_1 - class 1: acc 0.8888888888888888, correct 8/9
+2024-11-02 10:53:54,115 - INFO - 
+Total: test_error: 0.4216, auc: 0.7353
+2024-11-02 10:55:06,948 - INFO - 
+worker_0: val_loss: 0.7738, val_error: 0.5098, auc: 0.5614
+2024-11-02 10:55:06,949 - INFO - worker_0 - class 0: acc 0.475, correct 19/40
+2024-11-02 10:55:06,950 - INFO - worker_0 - class 1: acc 0.5454545454545454, correct 6/11
+2024-11-02 10:55:11,552 - INFO - 
+worker_1: val_loss: 0.6600, val_error: 0.3800, auc: 0.7817
+2024-11-02 10:55:11,553 - INFO - worker_1 - class 0: acc 0.5, correct 18/36
+2024-11-02 10:55:11,554 - INFO - worker_1 - class 1: acc 0.9285714285714286, correct 13/14
+2024-11-02 10:55:11,565 - INFO - 
+Total: val_loss: 0.7169, val_error: 0.4449, auc: 0.6753
+2024-11-02 10:55:16,343 - INFO - 
+loader_0: test_error: 0.3725, auc: 0.7625
+2024-11-02 10:55:16,345 - INFO - loader_0 - class 0: acc 0.5405405405405406, correct 20/37
+2024-11-02 10:55:16,345 - INFO - loader_0 - class 1: acc 0.8571428571428571, correct 12/14
+2024-11-02 10:55:20,647 - INFO - 
+loader_1: test_error: 0.4510, auc: 0.7063
+2024-11-02 10:55:20,647 - INFO - loader_1 - class 0: acc 0.47619047619047616, correct 20/42
+2024-11-02 10:55:20,647 - INFO - loader_1 - class 1: acc 0.8888888888888888, correct 8/9
+2024-11-02 10:55:20,651 - INFO - 
+Total: test_error: 0.4118, auc: 0.7248
+2024-11-02 10:56:30,991 - INFO - 
+worker_0: val_loss: 0.7933, val_error: 0.5098, auc: 0.5500
+2024-11-02 10:56:30,993 - INFO - worker_0 - class 0: acc 0.475, correct 19/40
+2024-11-02 10:56:30,994 - INFO - worker_0 - class 1: acc 0.5454545454545454, correct 6/11
+2024-11-02 10:56:35,173 - INFO - 
+worker_1: val_loss: 0.6515, val_error: 0.4000, auc: 0.7996
+2024-11-02 10:56:35,174 - INFO - worker_1 - class 0: acc 0.4722222222222222, correct 17/36
+2024-11-02 10:56:35,175 - INFO - worker_1 - class 1: acc 0.9285714285714286, correct 13/14
+2024-11-02 10:56:35,184 - INFO - 
+Total: val_loss: 0.7224, val_error: 0.4549, auc: 0.6811
+2024-11-02 10:56:40,726 - INFO - 
+loader_0: test_error: 0.3333, auc: 0.7664
+2024-11-02 10:56:40,740 - INFO - loader_0 - class 0: acc 0.6216216216216216, correct 23/37
+2024-11-02 10:56:40,741 - INFO - loader_0 - class 1: acc 0.7857142857142857, correct 11/14
+2024-11-02 10:56:45,252 - INFO - 
+loader_1: test_error: 0.4314, auc: 0.6772
+2024-11-02 10:56:45,255 - INFO - loader_1 - class 0: acc 0.5238095238095238, correct 22/42
+2024-11-02 10:56:45,256 - INFO - loader_1 - class 1: acc 0.7777777777777778, correct 7/9
+2024-11-02 10:56:45,273 - INFO - 
+Total: test_error: 0.3824, auc: 0.7270
+2024-11-02 10:58:05,013 - INFO - 
+worker_0: val_loss: 0.6654, val_error: 0.3725, auc: 0.5636
+2024-11-02 10:58:05,014 - INFO - worker_0 - class 0: acc 0.7, correct 28/40
+2024-11-02 10:58:05,015 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 10:58:10,842 - INFO - 
+worker_1: val_loss: 0.5595, val_error: 0.2400, auc: 0.7758
+2024-11-02 10:58:10,843 - INFO - worker_1 - class 0: acc 0.7777777777777778, correct 28/36
+2024-11-02 10:58:10,844 - INFO - worker_1 - class 1: acc 0.7142857142857143, correct 10/14
+2024-11-02 10:58:10,854 - INFO - 
+Total: val_loss: 0.6125, val_error: 0.3063, auc: 0.6774
+2024-11-02 10:58:16,547 - INFO - 
+loader_0: test_error: 0.2549, auc: 0.7490
+2024-11-02 10:58:16,548 - INFO - loader_0 - class 0: acc 0.7837837837837838, correct 29/37
+2024-11-02 10:58:16,548 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 10:58:21,720 - INFO - 
+loader_1: test_error: 0.3529, auc: 0.6878
+2024-11-02 10:58:21,722 - INFO - loader_1 - class 0: acc 0.6666666666666666, correct 28/42
+2024-11-02 10:58:21,723 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 10:58:21,734 - INFO - 
+Total: test_error: 0.3039, auc: 0.7111
+2024-11-02 10:59:52,113 - INFO - 
+worker_0: val_loss: 0.6369, val_error: 0.3529, auc: 0.5773
+2024-11-02 10:59:52,116 - INFO - worker_0 - class 0: acc 0.725, correct 29/40
+2024-11-02 10:59:52,120 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 10:59:58,074 - INFO - 
+worker_1: val_loss: 0.5140, val_error: 0.2600, auc: 0.7857
+2024-11-02 10:59:58,075 - INFO - worker_1 - class 0: acc 0.7777777777777778, correct 28/36
+2024-11-02 10:59:58,075 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 10:59:58,080 - INFO - 
+Total: val_loss: 0.5754, val_error: 0.3065, auc: 0.6958
+2024-11-02 11:00:02,826 - INFO - 
+loader_0: test_error: 0.2157, auc: 0.7703
+2024-11-02 11:00:02,826 - INFO - loader_0 - class 0: acc 0.8378378378378378, correct 31/37
+2024-11-02 11:00:02,827 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:00:07,509 - INFO - 
+loader_1: test_error: 0.3333, auc: 0.6852
+2024-11-02 11:00:07,510 - INFO - loader_1 - class 0: acc 0.6904761904761905, correct 29/42
+2024-11-02 11:00:07,510 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:00:07,513 - INFO - 
+Total: test_error: 0.2745, auc: 0.7177
+2024-11-02 11:01:22,116 - INFO - 
+worker_0: val_loss: 0.6609, val_error: 0.4118, auc: 0.5659
+2024-11-02 11:01:22,117 - INFO - worker_0 - class 0: acc 0.65, correct 26/40
+2024-11-02 11:01:22,118 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:01:28,469 - INFO - 
+worker_1: val_loss: 0.5493, val_error: 0.2800, auc: 0.8075
+2024-11-02 11:01:28,470 - INFO - worker_1 - class 0: acc 0.75, correct 27/36
+2024-11-02 11:01:28,470 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:01:28,478 - INFO - 
+Total: val_loss: 0.6051, val_error: 0.3459, auc: 0.6889
+2024-11-02 11:01:34,696 - INFO - 
+loader_0: test_error: 0.2549, auc: 0.7683
+2024-11-02 11:01:34,697 - INFO - loader_0 - class 0: acc 0.7837837837837838, correct 29/37
+2024-11-02 11:01:34,698 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:01:40,100 - INFO - 
+loader_1: test_error: 0.3922, auc: 0.6799
+2024-11-02 11:01:40,102 - INFO - loader_1 - class 0: acc 0.6190476190476191, correct 26/42
+2024-11-02 11:01:40,102 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:01:40,107 - INFO - 
+Total: test_error: 0.3235, auc: 0.7155
+2024-11-02 11:02:59,415 - INFO - 
+worker_0: val_loss: 0.6327, val_error: 0.3922, auc: 0.5591
+2024-11-02 11:02:59,418 - INFO - worker_0 - class 0: acc 0.7, correct 28/40
+2024-11-02 11:02:59,421 - INFO - worker_0 - class 1: acc 0.2727272727272727, correct 3/11
+2024-11-02 11:03:04,622 - INFO - 
+worker_1: val_loss: 0.5373, val_error: 0.2400, auc: 0.8056
+2024-11-02 11:03:04,624 - INFO - worker_1 - class 0: acc 0.8055555555555556, correct 29/36
+2024-11-02 11:03:04,626 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:03:04,641 - INFO - 
+Total: val_loss: 0.5850, val_error: 0.3161, auc: 0.6911
+2024-11-02 11:03:09,263 - INFO - 
+loader_0: test_error: 0.1961, auc: 0.7664
+2024-11-02 11:03:09,264 - INFO - loader_0 - class 0: acc 0.8648648648648649, correct 32/37
+2024-11-02 11:03:09,264 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:03:13,384 - INFO - 
+loader_1: test_error: 0.3529, auc: 0.6852
+2024-11-02 11:03:13,384 - INFO - loader_1 - class 0: acc 0.6666666666666666, correct 28/42
+2024-11-02 11:03:13,385 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:03:13,387 - INFO - 
+Total: test_error: 0.2745, auc: 0.7149
+2024-11-02 11:04:36,857 - INFO - 
+worker_0: val_loss: 0.6622, val_error: 0.3529, auc: 0.5795
+2024-11-02 11:04:36,857 - INFO - worker_0 - class 0: acc 0.7, correct 28/40
+2024-11-02 11:04:36,858 - INFO - worker_0 - class 1: acc 0.45454545454545453, correct 5/11
+2024-11-02 11:04:41,494 - INFO - 
+worker_1: val_loss: 0.5156, val_error: 0.3400, auc: 0.8175
+2024-11-02 11:04:41,495 - INFO - worker_1 - class 0: acc 0.6666666666666666, correct 24/36
+2024-11-02 11:04:41,496 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:04:41,505 - INFO - 
+Total: val_loss: 0.5889, val_error: 0.3465, auc: 0.7100
+2024-11-02 11:04:45,624 - INFO - 
+loader_0: test_error: 0.2745, auc: 0.7780
+2024-11-02 11:04:45,624 - INFO - loader_0 - class 0: acc 0.7567567567567568, correct 28/37
+2024-11-02 11:04:45,625 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:04:50,281 - INFO - 
+loader_1: test_error: 0.3725, auc: 0.6720
+2024-11-02 11:04:50,282 - INFO - loader_1 - class 0: acc 0.6428571428571429, correct 27/42
+2024-11-02 11:04:50,282 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:04:50,286 - INFO - 
+Total: test_error: 0.3235, auc: 0.7122
+2024-11-02 11:06:06,084 - INFO - 
+worker_0: val_loss: 0.7589, val_error: 0.4118, auc: 0.5932
+2024-11-02 11:06:06,085 - INFO - worker_0 - class 0: acc 0.6, correct 24/40
+2024-11-02 11:06:06,085 - INFO - worker_0 - class 1: acc 0.5454545454545454, correct 6/11
+2024-11-02 11:06:10,226 - INFO - 
+worker_1: val_loss: 0.5970, val_error: 0.3400, auc: 0.8075
+2024-11-02 11:06:10,226 - INFO - worker_1 - class 0: acc 0.5833333333333334, correct 21/36
+2024-11-02 11:06:10,227 - INFO - worker_1 - class 1: acc 0.8571428571428571, correct 12/14
+2024-11-02 11:06:10,234 - INFO - 
+Total: val_loss: 0.6779, val_error: 0.3759, auc: 0.7068
+2024-11-02 11:06:13,803 - INFO - 
+loader_0: test_error: 0.2941, auc: 0.7664
+2024-11-02 11:06:13,810 - INFO - loader_0 - class 0: acc 0.7027027027027027, correct 26/37
+2024-11-02 11:06:13,812 - INFO - loader_0 - class 1: acc 0.7142857142857143, correct 10/14
+2024-11-02 11:06:18,737 - INFO - 
+loader_1: test_error: 0.4314, auc: 0.6825
+2024-11-02 11:06:18,738 - INFO - loader_1 - class 0: acc 0.5714285714285714, correct 24/42
+2024-11-02 11:06:18,738 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:06:18,741 - INFO - 
+Total: test_error: 0.3627, auc: 0.7144
+2024-11-02 11:07:46,124 - INFO - 
+worker_0: val_loss: 0.6953, val_error: 0.3725, auc: 0.5545
+2024-11-02 11:07:46,125 - INFO - worker_0 - class 0: acc 0.675, correct 27/40
+2024-11-02 11:07:46,125 - INFO - worker_0 - class 1: acc 0.45454545454545453, correct 5/11
+2024-11-02 11:07:50,691 - INFO - 
+worker_1: val_loss: 0.5656, val_error: 0.2800, auc: 0.7917
+2024-11-02 11:07:50,692 - INFO - worker_1 - class 0: acc 0.7222222222222222, correct 26/36
+2024-11-02 11:07:50,693 - INFO - worker_1 - class 1: acc 0.7142857142857143, correct 10/14
+2024-11-02 11:07:50,709 - INFO - 
+Total: val_loss: 0.6305, val_error: 0.3263, auc: 0.6800
+2024-11-02 11:07:55,366 - INFO - 
+loader_0: test_error: 0.2745, auc: 0.7606
+2024-11-02 11:07:55,369 - INFO - loader_0 - class 0: acc 0.7567567567567568, correct 28/37
+2024-11-02 11:07:55,369 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:08:00,141 - INFO - 
+loader_1: test_error: 0.3922, auc: 0.6746
+2024-11-02 11:08:00,142 - INFO - loader_1 - class 0: acc 0.6190476190476191, correct 26/42
+2024-11-02 11:08:00,142 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:08:00,145 - INFO - 
+Total: test_error: 0.3333, auc: 0.7056
+2024-11-02 11:09:16,941 - INFO - 
+worker_0: val_loss: 0.6830, val_error: 0.3725, auc: 0.6068
+2024-11-02 11:09:16,941 - INFO - worker_0 - class 0: acc 0.65, correct 26/40
+2024-11-02 11:09:16,942 - INFO - worker_0 - class 1: acc 0.5454545454545454, correct 6/11
+2024-11-02 11:09:22,171 - INFO - 
+worker_1: val_loss: 0.5475, val_error: 0.3000, auc: 0.8115
+2024-11-02 11:09:22,172 - INFO - worker_1 - class 0: acc 0.7222222222222222, correct 26/36
+2024-11-02 11:09:22,173 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:09:22,180 - INFO - 
+Total: val_loss: 0.6152, val_error: 0.3363, auc: 0.7147
+2024-11-02 11:09:26,664 - INFO - 
+loader_0: test_error: 0.2549, auc: 0.7664
+2024-11-02 11:09:26,664 - INFO - loader_0 - class 0: acc 0.7567567567567568, correct 28/37
+2024-11-02 11:09:26,664 - INFO - loader_0 - class 1: acc 0.7142857142857143, correct 10/14
+2024-11-02 11:09:31,441 - INFO - 
+loader_1: test_error: 0.3922, auc: 0.6958
+2024-11-02 11:09:31,442 - INFO - loader_1 - class 0: acc 0.6190476190476191, correct 26/42
+2024-11-02 11:09:31,442 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:09:31,446 - INFO - 
+Total: test_error: 0.3235, auc: 0.7193
+2024-11-02 11:10:41,463 - INFO - 
+worker_0: val_loss: 0.6427, val_error: 0.2941, auc: 0.5250
+2024-11-02 11:10:41,465 - INFO - worker_0 - class 0: acc 0.825, correct 33/40
+2024-11-02 11:10:41,467 - INFO - worker_0 - class 1: acc 0.2727272727272727, correct 3/11
+2024-11-02 11:10:46,094 - INFO - 
+worker_1: val_loss: 0.4819, val_error: 0.1600, auc: 0.8075
+2024-11-02 11:10:46,095 - INFO - worker_1 - class 0: acc 0.9166666666666666, correct 33/36
+2024-11-02 11:10:46,096 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:10:46,104 - INFO - 
+Total: val_loss: 0.5623, val_error: 0.2271, auc: 0.6779
+2024-11-02 11:10:50,544 - INFO - 
+loader_0: test_error: 0.1961, auc: 0.7683
+2024-11-02 11:10:50,545 - INFO - loader_0 - class 0: acc 0.918918918918919, correct 34/37
+2024-11-02 11:10:50,545 - INFO - loader_0 - class 1: acc 0.5, correct 7/14
+2024-11-02 11:10:54,830 - INFO - 
+loader_1: test_error: 0.2745, auc: 0.6720
+2024-11-02 11:10:54,841 - INFO - loader_1 - class 0: acc 0.7619047619047619, correct 32/42
+2024-11-02 11:10:54,842 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:10:54,848 - INFO - 
+Total: test_error: 0.2353, auc: 0.7067
+2024-11-02 11:12:11,311 - INFO - 
+worker_0: val_loss: 0.6212, val_error: 0.3137, auc: 0.5795
+2024-11-02 11:12:11,313 - INFO - worker_0 - class 0: acc 0.775, correct 31/40
+2024-11-02 11:12:11,313 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:12:17,804 - INFO - 
+worker_1: val_loss: 0.4754, val_error: 0.2600, auc: 0.8254
+2024-11-02 11:12:17,805 - INFO - worker_1 - class 0: acc 0.8055555555555556, correct 29/36
+2024-11-02 11:12:17,838 - INFO - worker_1 - class 1: acc 0.5714285714285714, correct 8/14
+2024-11-02 11:12:17,848 - INFO - 
+Total: val_loss: 0.5483, val_error: 0.2869, auc: 0.7095
+2024-11-02 11:12:25,203 - INFO - 
+loader_0: test_error: 0.1765, auc: 0.7838
+2024-11-02 11:12:25,203 - INFO - loader_0 - class 0: acc 0.8918918918918919, correct 33/37
+2024-11-02 11:12:25,204 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:12:31,701 - INFO - 
+loader_1: test_error: 0.3137, auc: 0.6746
+2024-11-02 11:12:31,703 - INFO - loader_1 - class 0: acc 0.7142857142857143, correct 30/42
+2024-11-02 11:12:31,705 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:12:31,710 - INFO - 
+Total: test_error: 0.2451, auc: 0.7193
+2024-11-02 11:13:46,929 - INFO - 
+worker_0: val_loss: 0.7328, val_error: 0.4118, auc: 0.5318
+2024-11-02 11:13:46,931 - INFO - worker_0 - class 0: acc 0.65, correct 26/40
+2024-11-02 11:13:46,933 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:13:52,124 - INFO - 
+worker_1: val_loss: 0.5465, val_error: 0.3200, auc: 0.7956
+2024-11-02 11:13:52,127 - INFO - worker_1 - class 0: acc 0.6944444444444444, correct 25/36
+2024-11-02 11:13:52,128 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:13:52,137 - INFO - 
+Total: val_loss: 0.6397, val_error: 0.3659, auc: 0.6732
+2024-11-02 11:13:57,304 - INFO - 
+loader_0: test_error: 0.2745, auc: 0.7587
+2024-11-02 11:13:57,308 - INFO - loader_0 - class 0: acc 0.7567567567567568, correct 28/37
+2024-11-02 11:13:57,309 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:14:01,955 - INFO - 
+loader_1: test_error: 0.3725, auc: 0.6693
+2024-11-02 11:14:01,955 - INFO - loader_1 - class 0: acc 0.6428571428571429, correct 27/42
+2024-11-02 11:14:01,956 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:14:01,958 - INFO - 
+Total: test_error: 0.3235, auc: 0.7050
+2024-11-02 11:15:15,470 - INFO - 
+worker_0: val_loss: 0.8232, val_error: 0.4706, auc: 0.5182
+2024-11-02 11:15:15,471 - INFO - worker_0 - class 0: acc 0.55, correct 22/40
+2024-11-02 11:15:15,472 - INFO - worker_0 - class 1: acc 0.45454545454545453, correct 5/11
+2024-11-02 11:15:20,144 - INFO - 
+worker_1: val_loss: 0.6217, val_error: 0.4000, auc: 0.7917
+2024-11-02 11:15:20,146 - INFO - worker_1 - class 0: acc 0.5, correct 18/36
+2024-11-02 11:15:20,147 - INFO - worker_1 - class 1: acc 0.8571428571428571, correct 12/14
+2024-11-02 11:15:20,157 - INFO - 
+Total: val_loss: 0.7224, val_error: 0.4353, auc: 0.6611
+2024-11-02 11:15:24,942 - INFO - 
+loader_0: test_error: 0.3333, auc: 0.7664
+2024-11-02 11:15:24,946 - INFO - loader_0 - class 0: acc 0.6216216216216216, correct 23/37
+2024-11-02 11:15:24,948 - INFO - loader_0 - class 1: acc 0.7857142857142857, correct 11/14
+2024-11-02 11:15:29,533 - INFO - 
+loader_1: test_error: 0.3922, auc: 0.6720
+2024-11-02 11:15:29,534 - INFO - loader_1 - class 0: acc 0.6190476190476191, correct 26/42
+2024-11-02 11:15:29,534 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:15:29,540 - INFO - 
+Total: test_error: 0.3627, auc: 0.7116
+2024-11-02 11:16:41,994 - INFO - 
+worker_0: val_loss: 0.7711, val_error: 0.4314, auc: 0.4841
+2024-11-02 11:16:41,994 - INFO - worker_0 - class 0: acc 0.625, correct 25/40
+2024-11-02 11:16:41,995 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:16:46,878 - INFO - 
+worker_1: val_loss: 0.5707, val_error: 0.2800, auc: 0.7639
+2024-11-02 11:16:46,881 - INFO - worker_1 - class 0: acc 0.75, correct 27/36
+2024-11-02 11:16:46,883 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:16:46,900 - INFO - 
+Total: val_loss: 0.6709, val_error: 0.3557, auc: 0.6384
+2024-11-02 11:16:51,697 - INFO - 
+loader_0: test_error: 0.2941, auc: 0.7645
+2024-11-02 11:16:51,700 - INFO - loader_0 - class 0: acc 0.7297297297297297, correct 27/37
+2024-11-02 11:16:51,701 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:16:56,665 - INFO - 
+loader_1: test_error: 0.3725, auc: 0.6667
+2024-11-02 11:16:56,666 - INFO - loader_1 - class 0: acc 0.6428571428571429, correct 27/42
+2024-11-02 11:16:56,666 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:16:56,671 - INFO - 
+Total: test_error: 0.3333, auc: 0.7072
+2024-11-02 11:18:06,447 - INFO - 
+worker_0: val_loss: 0.8590, val_error: 0.5098, auc: 0.5341
+2024-11-02 11:18:06,448 - INFO - worker_0 - class 0: acc 0.5, correct 20/40
+2024-11-02 11:18:06,449 - INFO - worker_0 - class 1: acc 0.45454545454545453, correct 5/11
+2024-11-02 11:18:11,047 - INFO - 
+worker_1: val_loss: 0.6745, val_error: 0.4400, auc: 0.7579
+2024-11-02 11:18:11,047 - INFO - worker_1 - class 0: acc 0.4722222222222222, correct 17/36
+2024-11-02 11:18:11,048 - INFO - worker_1 - class 1: acc 0.7857142857142857, correct 11/14
+2024-11-02 11:18:11,055 - INFO - 
+Total: val_loss: 0.7667, val_error: 0.4749, auc: 0.6553
+2024-11-02 11:18:15,715 - INFO - 
+loader_0: test_error: 0.3529, auc: 0.7432
+2024-11-02 11:18:15,716 - INFO - loader_0 - class 0: acc 0.6216216216216216, correct 23/37
+2024-11-02 11:18:15,716 - INFO - loader_0 - class 1: acc 0.7142857142857143, correct 10/14
+2024-11-02 11:18:20,234 - INFO - 
+loader_1: test_error: 0.4314, auc: 0.6825
+2024-11-02 11:18:20,235 - INFO - loader_1 - class 0: acc 0.5714285714285714, correct 24/42
+2024-11-02 11:18:20,235 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:18:20,240 - INFO - 
+Total: test_error: 0.3922, auc: 0.7122
+2024-11-02 11:19:28,306 - INFO - 
+worker_0: val_loss: 0.7858, val_error: 0.4510, auc: 0.5045
+2024-11-02 11:19:28,308 - INFO - worker_0 - class 0: acc 0.575, correct 23/40
+2024-11-02 11:19:28,309 - INFO - worker_0 - class 1: acc 0.45454545454545453, correct 5/11
+2024-11-02 11:19:32,814 - INFO - 
+worker_1: val_loss: 0.6071, val_error: 0.3800, auc: 0.7520
+2024-11-02 11:19:32,816 - INFO - worker_1 - class 0: acc 0.6111111111111112, correct 22/36
+2024-11-02 11:19:32,817 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:19:32,824 - INFO - 
+Total: val_loss: 0.6964, val_error: 0.4155, auc: 0.6358
+2024-11-02 11:19:37,817 - INFO - 
+loader_0: test_error: 0.3137, auc: 0.7780
+2024-11-02 11:19:37,818 - INFO - loader_0 - class 0: acc 0.7027027027027027, correct 26/37
+2024-11-02 11:19:37,818 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:19:43,385 - INFO - 
+loader_1: test_error: 0.3725, auc: 0.6772
+2024-11-02 11:19:43,386 - INFO - loader_1 - class 0: acc 0.6428571428571429, correct 27/42
+2024-11-02 11:19:43,386 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:19:43,390 - INFO - 
+Total: test_error: 0.3431, auc: 0.7177
+2024-11-02 11:20:54,339 - INFO - 
+worker_0: val_loss: 0.7336, val_error: 0.4510, auc: 0.5273
+2024-11-02 11:20:54,339 - INFO - worker_0 - class 0: acc 0.6, correct 24/40
+2024-11-02 11:20:54,340 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:20:58,682 - INFO - 
+worker_1: val_loss: 0.5722, val_error: 0.3000, auc: 0.7520
+2024-11-02 11:20:58,684 - INFO - worker_1 - class 0: acc 0.7222222222222222, correct 26/36
+2024-11-02 11:20:58,688 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:20:58,737 - INFO - 
+Total: val_loss: 0.6529, val_error: 0.3755, auc: 0.6468
+2024-11-02 11:21:03,340 - INFO - 
+loader_0: test_error: 0.2941, auc: 0.7529
+2024-11-02 11:21:03,342 - INFO - loader_0 - class 0: acc 0.7297297297297297, correct 27/37
+2024-11-02 11:21:03,342 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:21:07,914 - INFO - 
+loader_1: test_error: 0.3725, auc: 0.6931
+2024-11-02 11:21:07,915 - INFO - loader_1 - class 0: acc 0.6428571428571429, correct 27/42
+2024-11-02 11:21:07,915 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:21:07,919 - INFO - 
+Total: test_error: 0.3333, auc: 0.7177
+2024-11-02 11:22:25,543 - INFO - 
+worker_0: val_loss: 0.6772, val_error: 0.2941, auc: 0.5182
+2024-11-02 11:22:25,545 - INFO - worker_0 - class 0: acc 0.8, correct 32/40
+2024-11-02 11:22:25,546 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:22:29,439 - INFO - 
+worker_1: val_loss: 0.5089, val_error: 0.2200, auc: 0.7738
+2024-11-02 11:22:29,439 - INFO - worker_1 - class 0: acc 0.8611111111111112, correct 31/36
+2024-11-02 11:22:29,440 - INFO - worker_1 - class 1: acc 0.5714285714285714, correct 8/14
+2024-11-02 11:22:29,443 - INFO - 
+Total: val_loss: 0.5931, val_error: 0.2571, auc: 0.6532
+2024-11-02 11:22:34,576 - INFO - 
+loader_0: test_error: 0.2549, auc: 0.7529
+2024-11-02 11:22:34,577 - INFO - loader_0 - class 0: acc 0.8378378378378378, correct 31/37
+2024-11-02 11:22:34,577 - INFO - loader_0 - class 1: acc 0.5, correct 7/14
+2024-11-02 11:22:39,561 - INFO - 
+loader_1: test_error: 0.2941, auc: 0.6772
+2024-11-02 11:22:39,562 - INFO - loader_1 - class 0: acc 0.7380952380952381, correct 31/42
+2024-11-02 11:22:39,562 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:22:39,566 - INFO - 
+Total: test_error: 0.2745, auc: 0.7155
+2024-11-02 11:23:45,350 - INFO - 
+worker_0: val_loss: 0.7712, val_error: 0.3725, auc: 0.5227
+2024-11-02 11:23:45,351 - INFO - worker_0 - class 0: acc 0.7, correct 28/40
+2024-11-02 11:23:45,352 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:23:50,842 - INFO - 
+worker_1: val_loss: 0.5814, val_error: 0.3000, auc: 0.7460
+2024-11-02 11:23:50,843 - INFO - worker_1 - class 0: acc 0.7222222222222222, correct 26/36
+2024-11-02 11:23:50,844 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:23:50,858 - INFO - 
+Total: val_loss: 0.6763, val_error: 0.3363, auc: 0.6447
+2024-11-02 11:23:55,136 - INFO - 
+loader_0: test_error: 0.2745, auc: 0.7220
+2024-11-02 11:23:55,140 - INFO - loader_0 - class 0: acc 0.7567567567567568, correct 28/37
+2024-11-02 11:23:55,141 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:23:59,423 - INFO - 
+loader_1: test_error: 0.3333, auc: 0.6138
+2024-11-02 11:23:59,423 - INFO - loader_1 - class 0: acc 0.6904761904761905, correct 29/42
+2024-11-02 11:23:59,424 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:23:59,429 - INFO - 
+Total: test_error: 0.3039, auc: 0.6747
+2024-11-02 11:25:05,653 - INFO - 
+worker_0: val_loss: 0.7406, val_error: 0.4510, auc: 0.5159
+2024-11-02 11:25:05,655 - INFO - worker_0 - class 0: acc 0.6, correct 24/40
+2024-11-02 11:25:05,656 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:25:09,819 - INFO - 
+worker_1: val_loss: 0.5732, val_error: 0.3000, auc: 0.7738
+2024-11-02 11:25:09,820 - INFO - worker_1 - class 0: acc 0.7222222222222222, correct 26/36
+2024-11-02 11:25:09,821 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:25:09,827 - INFO - 
+Total: val_loss: 0.6569, val_error: 0.3755, auc: 0.6521
+2024-11-02 11:25:14,554 - INFO - 
+loader_0: test_error: 0.2745, auc: 0.7220
+2024-11-02 11:25:14,555 - INFO - loader_0 - class 0: acc 0.7837837837837838, correct 29/37
+2024-11-02 11:25:14,555 - INFO - loader_0 - class 1: acc 0.5714285714285714, correct 8/14
+2024-11-02 11:25:18,223 - INFO - 
+loader_1: test_error: 0.3333, auc: 0.6349
+2024-11-02 11:25:18,225 - INFO - loader_1 - class 0: acc 0.6904761904761905, correct 29/42
+2024-11-02 11:25:18,225 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:25:18,230 - INFO - 
+Total: test_error: 0.3039, auc: 0.6808
+2024-11-02 11:26:30,359 - INFO - 
+worker_0: val_loss: 0.8776, val_error: 0.4902, auc: 0.5114
+2024-11-02 11:26:30,360 - INFO - worker_0 - class 0: acc 0.55, correct 22/40
+2024-11-02 11:26:30,361 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:26:35,634 - INFO - 
+worker_1: val_loss: 0.6578, val_error: 0.3800, auc: 0.7560
+2024-11-02 11:26:35,636 - INFO - worker_1 - class 0: acc 0.5555555555555556, correct 20/36
+2024-11-02 11:26:35,638 - INFO - worker_1 - class 1: acc 0.7857142857142857, correct 11/14
+2024-11-02 11:26:35,661 - INFO - 
+Total: val_loss: 0.7677, val_error: 0.4351, auc: 0.6395
+2024-11-02 11:26:40,142 - INFO - 
+loader_0: test_error: 0.3529, auc: 0.7046
+2024-11-02 11:26:40,144 - INFO - loader_0 - class 0: acc 0.6486486486486487, correct 24/37
+2024-11-02 11:26:40,144 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:26:44,634 - INFO - 
+loader_1: test_error: 0.3725, auc: 0.6720
+2024-11-02 11:26:44,634 - INFO - loader_1 - class 0: acc 0.6428571428571429, correct 27/42
+2024-11-02 11:26:44,635 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:26:44,640 - INFO - 
+Total: test_error: 0.3627, auc: 0.6890
+2024-11-02 11:28:02,086 - INFO - 
+worker_0: val_loss: 0.9046, val_error: 0.4902, auc: 0.4955
+2024-11-02 11:28:02,088 - INFO - worker_0 - class 0: acc 0.55, correct 22/40
+2024-11-02 11:28:02,089 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:28:06,789 - INFO - 
+worker_1: val_loss: 0.6682, val_error: 0.3400, auc: 0.7520
+2024-11-02 11:28:06,790 - INFO - worker_1 - class 0: acc 0.6666666666666666, correct 24/36
+2024-11-02 11:28:06,792 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:28:06,797 - INFO - 
+Total: val_loss: 0.7864, val_error: 0.4151, auc: 0.6216
+2024-11-02 11:28:10,582 - INFO - 
+loader_0: test_error: 0.3137, auc: 0.7066
+2024-11-02 11:28:10,583 - INFO - loader_0 - class 0: acc 0.7027027027027027, correct 26/37
+2024-11-02 11:28:10,583 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:28:14,889 - INFO - 
+loader_1: test_error: 0.3922, auc: 0.6640
+2024-11-02 11:28:14,889 - INFO - loader_1 - class 0: acc 0.6190476190476191, correct 26/42
+2024-11-02 11:28:14,890 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:28:14,894 - INFO - 
+Total: test_error: 0.3529, auc: 0.6841
+2024-11-02 11:29:25,096 - INFO - 
+worker_0: val_loss: 0.8275, val_error: 0.4118, auc: 0.5045
+2024-11-02 11:29:25,096 - INFO - worker_0 - class 0: acc 0.65, correct 26/40
+2024-11-02 11:29:25,097 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:29:28,885 - INFO - 
+worker_1: val_loss: 0.5897, val_error: 0.2800, auc: 0.7639
+2024-11-02 11:29:28,886 - INFO - worker_1 - class 0: acc 0.75, correct 27/36
+2024-11-02 11:29:28,887 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:29:28,899 - INFO - 
+Total: val_loss: 0.7086, val_error: 0.3459, auc: 0.6347
+2024-11-02 11:29:32,832 - INFO - 
+loader_0: test_error: 0.2941, auc: 0.7239
+2024-11-02 11:29:32,833 - INFO - loader_0 - class 0: acc 0.7297297297297297, correct 27/37
+2024-11-02 11:29:32,833 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:29:36,981 - INFO - 
+loader_1: test_error: 0.3529, auc: 0.6799
+2024-11-02 11:29:36,982 - INFO - loader_1 - class 0: acc 0.6666666666666666, correct 28/42
+2024-11-02 11:29:36,982 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:29:36,987 - INFO - 
+Total: test_error: 0.3235, auc: 0.6995
+2024-11-02 11:30:39,556 - INFO - 
+worker_0: val_loss: 0.8173, val_error: 0.4706, auc: 0.5250
+2024-11-02 11:30:39,557 - INFO - worker_0 - class 0: acc 0.575, correct 23/40
+2024-11-02 11:30:39,558 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:30:43,897 - INFO - 
+worker_1: val_loss: 0.6158, val_error: 0.2600, auc: 0.7520
+2024-11-02 11:30:43,898 - INFO - worker_1 - class 0: acc 0.7777777777777778, correct 28/36
+2024-11-02 11:30:43,899 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:30:43,909 - INFO - 
+Total: val_loss: 0.7166, val_error: 0.3653, auc: 0.6274
+2024-11-02 11:30:47,642 - INFO - 
+loader_0: test_error: 0.3137, auc: 0.7104
+2024-11-02 11:30:47,643 - INFO - loader_0 - class 0: acc 0.7297297297297297, correct 27/37
+2024-11-02 11:30:47,643 - INFO - loader_0 - class 1: acc 0.5714285714285714, correct 8/14
+2024-11-02 11:30:51,777 - INFO - 
+loader_1: test_error: 0.3333, auc: 0.6667
+2024-11-02 11:30:51,777 - INFO - loader_1 - class 0: acc 0.6904761904761905, correct 29/42
+2024-11-02 11:30:51,778 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:30:51,781 - INFO - 
+Total: test_error: 0.3235, auc: 0.6946
+2024-11-02 11:31:51,879 - INFO - 
+worker_0: val_loss: 0.9137, val_error: 0.4902, auc: 0.5182
+2024-11-02 11:31:51,880 - INFO - worker_0 - class 0: acc 0.55, correct 22/40
+2024-11-02 11:31:51,883 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:31:55,202 - INFO - 
+worker_1: val_loss: 0.6468, val_error: 0.3000, auc: 0.7560
+2024-11-02 11:31:55,203 - INFO - worker_1 - class 0: acc 0.6944444444444444, correct 25/36
+2024-11-02 11:31:55,204 - INFO - worker_1 - class 1: acc 0.7142857142857143, correct 10/14
+2024-11-02 11:31:55,216 - INFO - 
+Total: val_loss: 0.7802, val_error: 0.3951, auc: 0.6274
+2024-11-02 11:31:59,090 - INFO - 
+loader_0: test_error: 0.3137, auc: 0.7278
+2024-11-02 11:31:59,091 - INFO - loader_0 - class 0: acc 0.7027027027027027, correct 26/37
+2024-11-02 11:31:59,091 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:32:03,085 - INFO - 
+loader_1: test_error: 0.3333, auc: 0.6481
+2024-11-02 11:32:03,086 - INFO - loader_1 - class 0: acc 0.6904761904761905, correct 29/42
+2024-11-02 11:32:03,086 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:32:03,090 - INFO - 
+Total: test_error: 0.3235, auc: 0.6896
+2024-11-02 11:33:04,735 - INFO - 
+worker_0: val_loss: 0.8940, val_error: 0.4510, auc: 0.5136
+2024-11-02 11:33:04,736 - INFO - worker_0 - class 0: acc 0.6, correct 24/40
+2024-11-02 11:33:04,736 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:33:08,954 - INFO - 
+worker_1: val_loss: 0.6103, val_error: 0.2800, auc: 0.7639
+2024-11-02 11:33:08,956 - INFO - worker_1 - class 0: acc 0.75, correct 27/36
+2024-11-02 11:33:08,957 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:33:08,964 - INFO - 
+Total: val_loss: 0.7521, val_error: 0.3655, auc: 0.6321
+2024-11-02 11:33:13,086 - INFO - 
+loader_0: test_error: 0.2549, auc: 0.7239
+2024-11-02 11:33:13,086 - INFO - loader_0 - class 0: acc 0.7567567567567568, correct 28/37
+2024-11-02 11:33:13,087 - INFO - loader_0 - class 1: acc 0.7142857142857143, correct 10/14
+2024-11-02 11:33:16,881 - INFO - 
+loader_1: test_error: 0.3333, auc: 0.6693
+2024-11-02 11:33:16,883 - INFO - loader_1 - class 0: acc 0.6904761904761905, correct 29/42
+2024-11-02 11:33:16,883 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:33:16,887 - INFO - 
+Total: test_error: 0.2941, auc: 0.6957
+2024-11-02 11:34:27,564 - INFO - 
+worker_0: val_loss: 0.7873, val_error: 0.3725, auc: 0.5477
+2024-11-02 11:34:27,564 - INFO - worker_0 - class 0: acc 0.7, correct 28/40
+2024-11-02 11:34:27,565 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:34:31,269 - INFO - 
+worker_1: val_loss: 0.5969, val_error: 0.2600, auc: 0.7500
+2024-11-02 11:34:31,270 - INFO - worker_1 - class 0: acc 0.8055555555555556, correct 29/36
+2024-11-02 11:34:31,270 - INFO - worker_1 - class 1: acc 0.5714285714285714, correct 8/14
+2024-11-02 11:34:31,276 - INFO - 
+Total: val_loss: 0.6921, val_error: 0.3163, auc: 0.6426
+2024-11-02 11:34:35,068 - INFO - 
+loader_0: test_error: 0.2549, auc: 0.7625
+2024-11-02 11:34:35,069 - INFO - loader_0 - class 0: acc 0.8108108108108109, correct 30/37
+2024-11-02 11:34:35,070 - INFO - loader_0 - class 1: acc 0.5714285714285714, correct 8/14
+2024-11-02 11:34:39,136 - INFO - 
+loader_1: test_error: 0.3137, auc: 0.6587
+2024-11-02 11:34:39,140 - INFO - loader_1 - class 0: acc 0.7380952380952381, correct 31/42
+2024-11-02 11:34:39,140 - INFO - loader_1 - class 1: acc 0.4444444444444444, correct 4/9
+2024-11-02 11:34:39,148 - INFO - 
+Total: test_error: 0.2843, auc: 0.7116
+2024-11-02 11:35:43,801 - INFO - 
+worker_0: val_loss: 0.7224, val_error: 0.2941, auc: 0.5136
+2024-11-02 11:35:43,802 - INFO - worker_0 - class 0: acc 0.8, correct 32/40
+2024-11-02 11:35:43,803 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:35:48,004 - INFO - 
+worker_1: val_loss: 0.5450, val_error: 0.3000, auc: 0.7639
+2024-11-02 11:35:48,005 - INFO - worker_1 - class 0: acc 0.8333333333333334, correct 30/36
+2024-11-02 11:35:48,006 - INFO - worker_1 - class 1: acc 0.35714285714285715, correct 5/14
+2024-11-02 11:35:48,013 - INFO - 
+Total: val_loss: 0.6337, val_error: 0.2971, auc: 0.6400
+2024-11-02 11:35:52,221 - INFO - 
+loader_0: test_error: 0.2353, auc: 0.7548
+2024-11-02 11:35:52,221 - INFO - loader_0 - class 0: acc 0.8648648648648649, correct 32/37
+2024-11-02 11:35:52,222 - INFO - loader_0 - class 1: acc 0.5, correct 7/14
+2024-11-02 11:35:56,024 - INFO - 
+loader_1: test_error: 0.2745, auc: 0.6693
+2024-11-02 11:35:56,024 - INFO - loader_1 - class 0: acc 0.7857142857142857, correct 33/42
+2024-11-02 11:35:56,024 - INFO - loader_1 - class 1: acc 0.4444444444444444, correct 4/9
+2024-11-02 11:35:56,028 - INFO - 
+Total: test_error: 0.2549, auc: 0.7155
+2024-11-02 11:36:55,650 - INFO - 
+worker_0: val_loss: 0.9378, val_error: 0.4510, auc: 0.4841
+2024-11-02 11:36:55,654 - INFO - worker_0 - class 0: acc 0.6, correct 24/40
+2024-11-02 11:36:55,656 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:36:59,477 - INFO - 
+worker_1: val_loss: 0.6193, val_error: 0.2400, auc: 0.7560
+2024-11-02 11:36:59,478 - INFO - worker_1 - class 0: acc 0.8055555555555556, correct 29/36
+2024-11-02 11:36:59,478 - INFO - worker_1 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:36:59,486 - INFO - 
+Total: val_loss: 0.7785, val_error: 0.3455, auc: 0.6232
+2024-11-02 11:37:03,926 - INFO - 
+loader_0: test_error: 0.2549, auc: 0.7375
+2024-11-02 11:37:03,926 - INFO - loader_0 - class 0: acc 0.7837837837837838, correct 29/37
+2024-11-02 11:37:03,926 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:37:07,387 - INFO - 
+loader_1: test_error: 0.3137, auc: 0.6508
+2024-11-02 11:37:07,389 - INFO - loader_1 - class 0: acc 0.7142857142857143, correct 30/42
+2024-11-02 11:37:07,389 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:37:07,393 - INFO - 
+Total: test_error: 0.2843, auc: 0.7001
+2024-11-02 11:38:11,414 - INFO - 
+worker_0: val_loss: 0.8509, val_error: 0.4510, auc: 0.5159
+2024-11-02 11:38:11,414 - INFO - worker_0 - class 0: acc 0.6, correct 24/40
+2024-11-02 11:38:11,415 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:38:15,050 - INFO - 
+worker_1: val_loss: 0.6315, val_error: 0.2600, auc: 0.7778
+2024-11-02 11:38:15,050 - INFO - worker_1 - class 0: acc 0.75, correct 27/36
+2024-11-02 11:38:15,051 - INFO - worker_1 - class 1: acc 0.7142857142857143, correct 10/14
+2024-11-02 11:38:15,060 - INFO - 
+Total: val_loss: 0.7412, val_error: 0.3555, auc: 0.6474
+2024-11-02 11:38:19,222 - INFO - 
+loader_0: test_error: 0.2941, auc: 0.7355
+2024-11-02 11:38:19,222 - INFO - loader_0 - class 0: acc 0.7297297297297297, correct 27/37
+2024-11-02 11:38:19,222 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:38:22,953 - INFO - 
+loader_1: test_error: 0.3529, auc: 0.6746
+2024-11-02 11:38:22,954 - INFO - loader_1 - class 0: acc 0.6666666666666666, correct 28/42
+2024-11-02 11:38:22,954 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:38:22,957 - INFO - 
+Total: test_error: 0.3235, auc: 0.7089
+2024-11-02 11:39:27,292 - INFO - 
+worker_0: val_loss: 0.9561, val_error: 0.4902, auc: 0.4932
+2024-11-02 11:39:27,293 - INFO - worker_0 - class 0: acc 0.55, correct 22/40
+2024-11-02 11:39:27,294 - INFO - worker_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:39:32,255 - INFO - 
+worker_1: val_loss: 0.6677, val_error: 0.2600, auc: 0.7659
+2024-11-02 11:39:32,257 - INFO - worker_1 - class 0: acc 0.75, correct 27/36
+2024-11-02 11:39:32,258 - INFO - worker_1 - class 1: acc 0.7142857142857143, correct 10/14
+2024-11-02 11:39:32,269 - INFO - 
+Total: val_loss: 0.8119, val_error: 0.3751, auc: 0.6332
+2024-11-02 11:39:32,271 - INFO - Early stopping
+2024-11-02 11:39:36,316 - INFO - 
+loader_0: test_error: 0.2745, auc: 0.7510
+2024-11-02 11:39:36,317 - INFO - loader_0 - class 0: acc 0.7567567567567568, correct 28/37
+2024-11-02 11:39:36,317 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:39:40,698 - INFO - 
+loader_1: test_error: 0.3137, auc: 0.6455
+2024-11-02 11:39:40,699 - INFO - loader_1 - class 0: acc 0.7142857142857143, correct 30/42
+2024-11-02 11:39:40,699 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:39:40,704 - INFO - 
+Total: test_error: 0.2941, auc: 0.7072
+2024-11-02 11:39:44,498 - INFO - 
+loader_0: test_error: 0.3137, auc: 0.5795
+2024-11-02 11:39:44,499 - INFO - loader_0 - class 0: acc 0.775, correct 31/40
+2024-11-02 11:39:44,499 - INFO - loader_0 - class 1: acc 0.36363636363636365, correct 4/11
+2024-11-02 11:39:48,418 - INFO - 
+loader_1: test_error: 0.2600, auc: 0.8254
+2024-11-02 11:39:48,418 - INFO - loader_1 - class 0: acc 0.8055555555555556, correct 29/36
+2024-11-02 11:39:48,418 - INFO - loader_1 - class 1: acc 0.5714285714285714, correct 8/14
+2024-11-02 11:39:48,422 - INFO - 
+Total: test_error: 0.2869, auc: 0.7095
+2024-11-02 11:39:52,493 - INFO - 
+loader_0: test_error: 0.1765, auc: 0.7838
+2024-11-02 11:39:52,494 - INFO - loader_0 - class 0: acc 0.8918918918918919, correct 33/37
+2024-11-02 11:39:52,494 - INFO - loader_0 - class 1: acc 0.6428571428571429, correct 9/14
+2024-11-02 11:39:56,407 - INFO - 
+loader_1: test_error: 0.3137, auc: 0.6746
+2024-11-02 11:39:56,407 - INFO - loader_1 - class 0: acc 0.7142857142857143, correct 30/42
+2024-11-02 11:39:56,407 - INFO - loader_1 - class 1: acc 0.5555555555555556, correct 5/9
+2024-11-02 11:39:56,411 - INFO - 
+Total: test_error: 0.2451, auc: 0.7193
