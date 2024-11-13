@@ -1,0 +1,41 @@
+1.main.py加载CLIP模型(r64-107),修改train_fl函数参数数量(r109)
+        加载CLIP模型(r123-164),修改train函数参数数量(r166)
+2.main.py增加参数(r173-182),修改参数data_root_dir地址../HistoFL/DATA_ROOT_DIR
+3.core_utils.py:
+    注释掉损失函数(r152-155),
+    注释掉优化器(r205-207),
+    加载数据集(r207-218),
+    加载全局模型(r234-247),
+    加载局部模型函数(r252-278),
+    训练模型(r280-325),去掉内部训练论数，写到了外边
+    评估模型(r326-328),
+    去掉沟通轮数参数，换为迭代次数
+4.utils文件夹中添加participator.py,去掉重训练的批处理大小
+5.utils文件夹中添加param_aug.py
+6.utils文件夹中添加Gradient_matching_loss.py
+7.utils文件夹中添加losses.py
+8.model文件夹中添加model_attention.py
+9.dataset_generic.py中:
+    添加数据集加载函数Clip_Indices2Dataset(r447-463)
+    TensorDataset类(r465-474)
+    增加transform属性(r90)
+10.core_utils.py:(集中化训练)
+    注释掉损失函数(r387-390),
+    加载全局模型(r405-420),
+    注释掉优化器(r422-424),
+    加载数据集(r427-428),
+    训练模型(r440-503)
+    评估模型(r505-507),
+
+
+均运行无权重和N/n权重采样，指令：
+联邦学习：
+CUDA_VISIBLE_DEVICES=3 python main.py --k 1 --exp_code classification_fl --weighted_fl_avg  --split_dir fl_classification --match_epoch 100 --contrast_alpha 0.001
+CUDA_VISIBLE_DEVICES=4 python main.py --k 1 --exp_code classification_fl --weighted_sample --weighted_fl_avg  --split_dir fl_classification --match_epoch 100 --contrast_alpha 0.001
+
+集中化：
+CUDA_VISIBLE_DEVICES=5 python main.py --k 1 --exp_code classification_no_fl --task classification --no_fl --split_dir nofl_classification --match_epoch 100 --contrast_alpha 0.001
+CUDA_VISIBLE_DEVICES=6 python main.py --k 1 --exp_code classification_no_fl --weighted_sample --task classification --no_fl --split_dir nofl_classification --match_epoch 100 --contrast_alpha 0.001
+
+增加：
+--match_epoch=100 --contrast_alpha=0.001 
